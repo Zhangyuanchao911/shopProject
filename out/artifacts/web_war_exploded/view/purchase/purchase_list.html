@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>进货记录列表</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="../../js/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../../js/bootstrap.min.js"></script>
+</head>
+<body>
+<div style="padding:0px; margin:0px;">
+    <ul class="breadcrumb" style="  margin:0px; ">
+        <li>进货管理</li>
+        <li>进货记录</li>
+        <li>记录列表</li>
+    </ul>
+</div>
+<div class="row alert alert-info" style="margin:0px; padding:3px;">
+    <form class="form-inline" action="purchase_list.html">
+        <div class="form-group">
+            <label class="" for="activename">商品名称：</label>
+            <input type="text" name="kw" class="form-control" id="activename" placeholder="请输入商品名称">
+        </div>
+        <input type="submit" class="btn btn-danger" value="查询"/>
+    </form>
+</div>
+<div class="row" style="padding:15px; padding-top:0px; ">
+    <table class="table  table-condensed table-striped">
+        <tr>
+            <th>进货批号</th>
+            <th>供应商</th>
+            <th>商品条码</th>
+            <th>品类</th>
+            <th>商品名称</th>
+            <th>进货单价(元)</th>
+            <th>进货数量</th>
+            <th>进货金额</th>
+            <th>保质期限</th>
+        </tr>
+        <tr>
+            <td>2020-07-10_1</td>
+            <td>济南九州通商贸有限公司</td>
+            <td>76234873</td>
+            <td>饮料</td>
+            <td>农夫山泉500ml</td>
+            <td>2.00</td>
+            <td>1000</td>
+            <td>2000.00</td>
+            <td>2021-07-09</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
